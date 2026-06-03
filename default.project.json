@@ -32,26 +32,23 @@
       }
     },
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      }
+      "$path": "src/ReplicatedStorage"
     },
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
+      "$path": "src/ServerScriptService"
     },
-    "SoundService": {
+    "StarterGui": {
       "$properties": {
-        "DefaultListenerLocation": "Camera",
-        "RespectFilteringEnabled": true
-      }
+        "ClipsDescendantsSupportsRotation": {
+          "Enum": 0
+        },
+        "ScreenOrientation": "Sensor"
+      },
+      "$path": "src/StarterGui"
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+        "$path": "src/StarterPlayerScripts"
       },
       "$properties": {
         "AvatarJointUpgrade_SerializedRollout": "Enabled",

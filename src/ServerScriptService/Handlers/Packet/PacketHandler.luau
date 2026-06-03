@@ -1,0 +1,3 @@
+local PacketHandler = {}
+
+return PacketHandler
